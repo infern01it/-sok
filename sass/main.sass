@@ -1,0 +1,54 @@
+@import "vars" // Импорт переменных всегда первый
+@import "snippets" // Импорт снипетов после переменных
+
+@mixin text_normal
+    font-style: normal
+    font-stretch: normal
+    letter-spacing: normal
+    font-family: Lato
+
+// Импорт стилей проекта
+@import "fonts"
+@import "ui"
+@import "header"
+@import "sect-all"
+
+
+body
+    font-family: 'Lato'
+    font-size: 20px
+    line-height: 1.5em
+    color: $textBody
+    background: #ffffff
+
+h1 
+    @include text_normal
+    line-height: 1.05
+    font-size: 4.67vh    
+h2 
+    @include text_normal
+    font-size: 32px 
+    line-height: 1.56
+
+p 
+    @include text_normal
+    font-size: 20px
+    line-height: 1.75
+
+.text_white
+    color: #ffffff
+
+.text_black
+    color: #000000
+
+.scroll
+    font-size: 1.8vh
+    text-align: center
+    line-height: 1
+
+.text-main
+    color: $greyish-brown
+
+.hide-phones
+    @media (max-width: 767.8px)
+        display: none
