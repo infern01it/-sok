@@ -68,6 +68,14 @@ $(function() {
 		dots: false,
 		slidesToShow: 1,
 	});
+	var minHeightSlider = 0;
+	var allBigSlides = $('.slider__track .slider__slide');
+	for (var i=0; i<allBigSlides.length; i++) {
+		if( $(allBigSlides).eq(i).height() < $(allBigSlides).eq(i+1).height()) {
+			minHeightSlider = $(allBigSlides).eq(i).height();
+		}
+	}
+	$('.slider__track').height(minHeightSlider);
 
 	for(var i = 1; i < 5; i++){
 		$('#mini'+i).slick({
