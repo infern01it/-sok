@@ -335,6 +335,7 @@ em, i {
 }
 
 .gallery {
+	padding-top: 30px;
 	background-color: #fcfcfc;
 	margin-bottom: 60px;
 }
