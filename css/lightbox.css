@@ -110,14 +110,14 @@ html.lb-disable-scrolling {
 	width: 34%;
 	left: 0;
 	float: left;
-	background: url("/img/lightbox/prev.png") left 48% no-repeat;
+	background: url("../img/lightbox/prev.png") left 48% no-repeat;
 }
 
 .lb-nav a.lb-next {
 	width: 64%;
 	right: 0;
 	float: right;
-	background: url("/img/lightbox/next.png") right 48% no-repeat;
+	background: url("../img/lightbox/next.png") right 48% no-repeat;
 }
 
 .lb-container > .nav {
@@ -172,7 +172,7 @@ html.lb-disable-scrolling {
 	display: block;
 	width: 33px;
 	height: 33px;
-	background: url("/img/lightbox/close.png") top right no-repeat;
+	background: url("../img/lightbox/close.png") top right no-repeat;
 	text-align: right;
 	outline: none;
 	opacity: 0.7;
@@ -188,11 +188,11 @@ html.lb-disable-scrolling {
 
 @media (max-width: 767.98px) {
 	.lb-nav a.lb-prev {
-		background: url("/img/lightbox/prev-xs.png") left 48% no-repeat;
+		background: url("../img/lightbox/prev-xs.png") left 48% no-repeat;
 	}
 
 	.lb-nav a.lb-next {
-		background: url("/img/lightbox/next-xs.png") right 48% no-repeat;
+		background: url("../img/lightbox/next-xs.png") right 48% no-repeat;
 	}
 
 	.lb-close {

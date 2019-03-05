@@ -1,30 +1,30 @@
 @font-face {
 	font-family: "Lato";
-	src: url("/fonts/Lato-Regular/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/Lato-Regular/Lato-Regular.woff") format("woff"), url("/fonts/Lato-Regular/Lato-Regular.ttf") format("truetype");
+	src: url("../fonts/Lato-Regular/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Regular/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular/Lato-Regular.ttf") format("truetype");
 	font-weight: 400;
 }
 
 @font-face {
 	font-family: "Lato";
-  src: url("/fonts/Lato-Black/Lato-Black.eot?#iefix") format("embedded-opentype"), url("/fonts/Lato-Black/Lato-Black.woff") format("woff"), url("/fonts/Lato-Black/Lato-Black.ttf") format("truetype");
+  src: url("../fonts/Lato-Black/Lato-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Black/Lato-Black.woff") format("woff"), url("../fonts/Lato-Black/Lato-Black.ttf") format("truetype");
   font-weight: 900;
 }
 
 @font-face {
 	font-family: "Lato";
-  src: url("/fonts/Lato-Bold/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Lato-Bold/Lato-Bold.woff") format("woff"), url("/fonts/Lato-Bold/Lato-Bold.ttf") format("truetype");
+  src: url("../fonts/Lato-Bold/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Bold/Lato-Bold.woff") format("woff"), url("../fonts/Lato-Bold/Lato-Bold.ttf") format("truetype");
   font-weight: 700;
 }
 
 @font-face {
 	font-family: "Lato";
-  src: url("/fonts/Lato-Semibold/Lato-Semibold.eot?#iefix") format("embedded-opentype"), url("/fonts/Lato-Semibold/Lato-Semibold.woff") format("woff"), url("/fonts/Lato-Semibold/Lato-Semibold.ttf") format("truetype");
+  src: url("../fonts/Lato-Semibold/Lato-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Semibold/Lato-Semibold.woff") format("woff"), url("../fonts/Lato-Semibold/Lato-Semibold.ttf") format("truetype");
   font-weight: 600;
 }
 
 @font-face {
 	font-family: "Lato-Heavy";
-  src: url("/fonts/Lato-Heavy/Lato-Heavy.eot?#iefix") format("embedded-opentype"), url("/fonts/Lato-Heavy/Lato-Heavy.woff") format("woff"), url("/fonts/Lato-Heavy/Lato-Heavy.ttf") format("truetype");
+  src: url("../fonts/Lato-Heavy/Lato-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Heavy/Lato-Heavy.woff") format("woff"), url("../fonts/Lato-Heavy/Lato-Heavy.ttf") format("truetype");
   font-weight: 900;
 }
 
