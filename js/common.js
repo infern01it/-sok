@@ -96,7 +96,7 @@ $(function() {
 		var allSlides1 = $('#slider-1 .slider__slide:not(.slick-cloned)');
 		var currentSlide = $('#slider-1 .slick-active');
 		var index = allSlides1.index($(currentSlide));
-		$('.slider__current').empty().append(index + 1);
+		$('.slider__current').empty().append((allSlides1.length<10 ? '0' : '') + (index + 1));
 		$('.slider__all').empty().append('/' + allSlides1.length);
 	}
 	changeSliderInfo();
