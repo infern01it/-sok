@@ -89,7 +89,6 @@ $(function() {
 	};
 
 	$('.slider__track').on('afterChange', function(event, slick, currentSlide, nextSlide){
-		console.log(nextSlide);
 		changeSliderInfo();
 	  });
 	function changeSliderInfo() {
